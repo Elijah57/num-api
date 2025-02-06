@@ -1,0 +1,15 @@
+# Ignore the Go module cache
+/go/pkg/mod/
+
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+
+/go/
+
+*.out
+*.test
