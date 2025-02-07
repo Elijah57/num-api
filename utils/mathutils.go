@@ -20,6 +20,9 @@ func IsPrime(n int) bool {
 
 // Function to check if a number is perfect
 func IsPerfect(n int) bool {
+	if n <= 0{
+		return false
+	}
 	sum := 0
 	for i := 1; i <= n/2; i++ {
 		if n%i == 0 {
